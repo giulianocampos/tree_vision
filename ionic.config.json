@@ -1,0 +1,7 @@
+{
+  "name": "Tree Vision",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
