@@ -12,4 +12,8 @@ export class Tab4Page implements OnInit {
   ngOnInit() {
   }
 
+  teste() {
+    console.log('funfando');
+  }
+
 }
