@@ -3,6 +3,19 @@ ion-card {
   background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
 }
 
-ion-grid {
-  margin-top: 10vh;
+ion-toolbar {
+  --background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+  --color: #ffffff;
 }
+
+ion-title {
+  // font-family: 'Nerko One', cursive;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 14px;
+}
+
