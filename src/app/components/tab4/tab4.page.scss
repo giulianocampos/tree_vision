@@ -1,14 +1,21 @@
 ion-card {
+  justify-content: space-between;
+  display: flex;
   border-radius: 10px;
   background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
 }
 
+.card-icon {
+  align-self: center;
+}
+
 ion-toolbar {
-  --background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+  --background: #121212;
   --color: #ffffff;
 }
 
 ion-title {
+
   // font-family: 'Nerko One', cursive;
   text-align: center;
   font-family: 'Kanit', sans-serif;
