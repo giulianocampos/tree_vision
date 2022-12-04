@@ -1,8 +1,13 @@
+ion-content {
+  --background: var(--ion-color-dark) url('../../../assets/images/dark.jpg') no-repeat center center/cover;
+}
+
 ion-card {
   justify-content: space-between;
   display: flex;
   border-radius: 10px;
-  background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+  // background: linear-gradient(90deg, rgb(13, 51, 40) 0%, rgb(15, 65, 39) 100%);
+  background: linear-gradient(90deg, rgb(15, 65, 39) 0%, rgb(13, 51, 40) 100%);
 }
 
 .card-icon {
@@ -10,7 +15,7 @@ ion-card {
 }
 
 ion-toolbar {
-  --background: #121212;
+  --background: #080808;
   --color: #ffffff;
 }
 
