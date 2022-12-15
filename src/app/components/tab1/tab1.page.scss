@@ -1,11 +1,25 @@
-ion-card {
-  border-radius: 10px;
-}
+.content {
+  .card {
+    height: 75%;
+    width: 100%;
+    bottom: 0;
+    background: #fff;
+    position: absolute;
+    border-radius: 3rem;
+    padding: 2rem;
 
-.title {
-  text-align: center;
-}
+    .image {
+      position: absolute;
+      top: -6.5rem;
+      width: 50%;
+      left: 50%;
+      transform: translate(-50%);
+      border-radius: 10px;
+    }
+  }
 
-.subtitle {
-  text-align: center;
+  .card-title {
+    font-family: 'Secular One', sans-serif;
+    color: black;
+  }
 }
