@@ -1,130 +1,159 @@
 .content {
   font-family: 'Secular One', sans-serif;
---background: linear-gradient(180deg, hsla(0, 0%, 14%, 1) 14%, hsla(0, 0%, 10%, 1) 46%, hsla(0, 0%, 0%, 1) 100%);
+  // --background: linear-gradient(180deg, hsla(0, 0%, 20%, 1) 14%, hsla(0, 0%, 10%, 1) 46%, hsla(0, 0%, 0%, 1) 100%);
+  // --background: #1B4D3E;
 
-.main-title {
-  text-align: center;
-  font-size: 12px;
-}
-
-.title {
-  margin-top: 8%;
-  text-align: center;
-  font-family: 'Secular One', sans-serif;
-}
-
-.card-title {
-  font-size: 16px;
-}
-
-.icon {
-  margin-top: 10%;
-  text-align: center;
-}
-
-ion-icon {
-  font-size: 45px;
-}
-
-
-  // .getStarted {
-  //   justify-content: space-between;
-  //   margin-top: 120%;
-
-  //   ion-button {
-  //     margin-left: 20px;
-  //     margin-right: 20px;
-  //     display: flex;
-  //     --background: #18753b;
-  //     --border-radius: 14px;
-  //     color: black;
-  //   }
-
-  //   span {
-  //     font-size: 16px;
-  //   }
-
-  //   ion-icon {
-  //     margin-left: 35%;
-  //   }
-  // }
-
-  // .circleBase {
-  //   border-radius: 50%;
-  // }
-
-  // .type1 {
+  // .card {
+  //   height: 60%;
+  //   width: 100%;
+  //   // background: rgb(16, 109, 39);
+  //   // background-image: linear-gradient(to top, #05371f, #064222, #0b4e25, #135a26, #1d6626);
+  //   // background-image: linear-gradient(to bottom, #05371f, #064222, #0b4e25, #135a26, #1d6626);
+  //   // background-image: linear-gradient(to bottom, #05371f, #063e20, #0a4520, #0f4c1f, #16531e);
+  //   background-image: linear-gradient(to bottom, #05371f, #073b1f, #0a401e, #0f441d, #14481b);
   //   position: absolute;
-  //   width: 280px;
-  //   height: 280px;
-  //   background: linear-gradient(
-  //     90deg,
-  //     rgba(17, 84, 39, 1) 26%,
-  //     rgba(24, 117, 59, 1) 100%
-  //   );
-  //   box-shadow: 0px 1px 20px rgb(13, 107, 36);
-  //   top: -50px;
-  //   left: -50px;
+  //   border-radius: 0 0 3rem 3rem;
   // }
 
-  // .type2 {
-  //   width: 100px;
-  //   height: 100px;
-  //   background: #000;
-  // }
+  .main-card{
+    margin: 0px;
+    height: 50%;
+    border-radius: 0 0 3rem 3rem;
+    background-image: linear-gradient(to bottom, #05371f, #073b1f, #0a401e, #0f441d, #14481b);
 
-  // .circle1 {
-  //   margin-left: 180px;
-  //   margin-top: 50px;
-  // }
+  }
 
-  // .circle2 {
-  //   position: absolute;
-  //   top: 150px;
-  //   left: -20px;
-  // }
+  .main-title {
+    text-align: center;
+    font-size: 12px;
+  }
 
-  // .welcomeMessage {
-  //   position: absolute;
-  //   top: 70px;
-  //   left: 50px;
+  .title {
+    margin-top: 8%;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+  }
 
-  //   p {
-  //     font-weight: bold;
-  //     font-size: 1.8rem;
-  //     margin-top: 5px;
-  //   }
-  // }
+  .card-title {
+    color: #135725;
+    font-size: 18px;
+    font-family: 'Secular One', sans-serif;
+  }
 
-  // ion-card {
-  //   justify-content: space-between;
-  //   display: flex;
-  //   border-radius: 10px;
-  //   background: linear-gradient(
-  //     90deg,
-  //     rgb(15, 65, 39) 0%,
-  //     rgb(13, 51, 40) 100%
-  //   );
-  // }
+  .icon {
+    margin-top: 10%;
+    text-align: center;
+  }
 
-  // .card-icon {
-  //   align-self: center;
-  // }
+  ion-icon {
+    font-size: 40px;
+  }
 
-  // ion-toolbar {
-  //   --background: #080808;
-  //   --color: #ffffff;
-  // }
-
-  // ion-title {
-  //   // font-family: 'Nerko One', cursive;
-  //   text-align: center;
-  //   font-family: "Kanit", sans-serif;
-  //   font-size: 20px;
-  // }
-
-  // .main-title {
-  //   text-align: center;
-  //   margin-top: 14px;
-  // }
+  .card-one {
+    // background: linear-gradient(0deg,
+    //     rgb(13, 51, 40) 0%,
+    //     rgb(15, 65, 39) 100%);
+        background-image: linear-gradient(to bottom, #c1c2c1, #c4c5c5, #c8c9c9, #cbcccc, #cfcfcf);
+  }
 }
+
+// .getStarted {
+//   justify-content: space-between;
+//   margin-top: 120%;
+
+//   ion-button {
+//     margin-left: 20px;
+//     margin-right: 20px;
+//     display: flex;
+//     --background: #18753b;
+//     --border-radius: 14px;
+//     color: black;
+//   }
+
+//   span {
+//     font-size: 16px;
+//   }
+
+//   ion-icon {
+//     margin-left: 35%;
+//   }
+// }
+
+// .circleBase {
+//   border-radius: 50%;
+// }
+
+// .type1 {
+//   position: absolute;
+//   width: 280px;
+//   height: 280px;
+//   background: linear-gradient(
+//     90deg,
+//     rgba(17, 84, 39, 1) 26%,
+//     rgba(24, 117, 59, 1) 100%
+//   );
+//   box-shadow: 0px 1px 20px rgb(13, 107, 36);
+//   top: -50px;
+//   left: -50px;
+// }
+
+// .type2 {
+//   width: 100px;
+//   height: 100px;
+//   background: #000;
+// }
+
+// .circle1 {
+//   margin-left: 180px;
+//   margin-top: 50px;
+// }
+
+// .circle2 {
+//   position: absolute;
+//   top: 150px;
+//   left: -20px;
+// }
+
+// .welcomeMessage {
+//   position: absolute;
+//   top: 70px;
+//   left: 50px;
+
+//   p {
+//     font-weight: bold;
+//     font-size: 1.8rem;
+//     margin-top: 5px;
+//   }
+// }
+
+// ion-card {
+//   justify-content: space-between;
+//   display: flex;
+//   border-radius: 10px;
+//   background: linear-gradient(
+//     90deg,
+//     rgb(15, 65, 39) 0%,
+//     rgb(13, 51, 40) 100%
+//   );
+// }
+
+// .card-icon {
+//   align-self: center;
+// }
+
+// ion-toolbar {
+//   --background: #080808;
+//   --color: #ffffff;
+// }
+
+// ion-title {
+//   // font-family: 'Nerko One', cursive;
+//   text-align: center;
+//   font-family: "Kanit", sans-serif;
+//   font-size: 20px;
+// }
+
+// .main-title {
+//   text-align: center;
+//   margin-top: 14px;
+// }
