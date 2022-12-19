@@ -1,19 +1,5 @@
 .content {
   font-family: 'Secular One', sans-serif;
-  // --background: linear-gradient(180deg, hsla(0, 0%, 20%, 1) 14%, hsla(0, 0%, 10%, 1) 46%, hsla(0, 0%, 0%, 1) 100%);
-  // --background: #1B4D3E;
-
-  // .card {
-  //   height: 60%;
-  //   width: 100%;
-  //   // background: rgb(16, 109, 39);
-  //   // background-image: linear-gradient(to top, #05371f, #064222, #0b4e25, #135a26, #1d6626);
-  //   // background-image: linear-gradient(to bottom, #05371f, #064222, #0b4e25, #135a26, #1d6626);
-  //   // background-image: linear-gradient(to bottom, #05371f, #063e20, #0a4520, #0f4c1f, #16531e);
-  //   background-image: linear-gradient(to bottom, #05371f, #073b1f, #0a401e, #0f441d, #14481b);
-  //   position: absolute;
-  //   border-radius: 0 0 3rem 3rem;
-  // }
 
   .main-card {
     margin: 0px;
@@ -30,16 +16,33 @@
     font-family: 'Secular One', sans-serif;
   }
 
-  .main-title {
+  .subtitle {
     text-align: center;
     font-size: 15px;
     font-family: 'Secular One', sans-serif;
   }
 
+  .landing-image {
+    display: flex;
+    justify-content: center;
+
+    ion-img {
+      width: 55%;
+    }
+  }
+
+  .card-one, .card-two {
+    min-height: 120px;
+    max-height: 120px;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, #c1c2c1, #c4c5c5, #c8c9c9, #cbcccc, #cfcfcf);
+  }
+
   .card-title {
-    color: #135725;
-    font-size: 18px;
+    text-align: center;
     font-family: 'Secular One', sans-serif;
+    color: #135725;
+    font-size: 16px;
   }
 
   .icon {
@@ -48,18 +51,10 @@
   }
 
   ion-icon {
+    color: black;
     font-size: 40px;
   }
 
-  .card-one {
-    background-image: linear-gradient(to bottom, #c1c2c1, #c4c5c5, #c8c9c9, #cbcccc, #cfcfcf);
-  }
-
-  .landing-image {
-    ion-img {
-      width: 55%;
-    }
-  }
 }
 
 // .getStarted {
