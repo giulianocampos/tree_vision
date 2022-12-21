@@ -1,25 +1,45 @@
 .content {
-  .card {
-    height: 75%;
-    width: 100%;
-    bottom: 0;
-    background: #fff;
-    position: absolute;
-    border-radius: 3rem;
-    padding: 2rem;
 
-    .image {
-      position: absolute;
-      top: -6.5rem;
-      width: 50%;
-      left: 50%;
-      transform: translate(-50%);
-      border-radius: 10px;
+  .main-card {
+    margin: 0px;
+    height: 40%;
+    border-radius: 0 0 3rem 3rem;
+    background-image: linear-gradient(to bottom, #05371f, #073b1f, #0a401e, #0f441d, #14481b);
+  }
+
+  .title {
+    font-size: 20px;
+    margin-top: 8%;
+    margin-bottom: -14px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+  }
+
+  .landing-image {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+
+    ion-img {
+      width: 55%;
     }
   }
 
   .card-title {
     font-family: 'Secular One', sans-serif;
     color: black;
+  }
+
+  .preview {
+    margin-bottom: -30px;
+    margin-top: -10px;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .question {
+    color: #135725;
+    font-family: 'Secular One', sans-serif;
+    font-size: 18px;
   }
 }

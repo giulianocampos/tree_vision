@@ -1,5 +1,4 @@
 .content {
-  font-family: 'Secular One', sans-serif;
 
   .main-card {
     margin: 0px;
@@ -18,11 +17,12 @@
 
   .subtitle {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Secular One', sans-serif;
   }
 
   .landing-image {
+    margin-top: -10px;
     display: flex;
     justify-content: center;
 
@@ -35,6 +35,7 @@
     min-height: 120px;
     max-height: 120px;
     border-radius: 15px;
+    margin-bottom: -10px;
     background-image: linear-gradient(to bottom, #c1c2c1, #c4c5c5, #c8c9c9, #cbcccc, #cfcfcf);
   }
 
@@ -53,6 +54,30 @@
   ion-icon {
     color: black;
     font-size: 40px;
+  }
+
+  .tree {
+    padding: 12px;
+
+    ion-button {
+      --border-radius: 12px;
+      height: 50px;
+      width: 100%;
+    }
+  }
+
+  .infos {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-family: 'Secular One', sans-serif;
+    color: #135725;
+    font-size: 16px;
+  }
+
+  .card-infos {
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, #c1c2c1, #c4c5c5, #c8c9c9, #cbcccc, #cfcfcf);
   }
 
 }
