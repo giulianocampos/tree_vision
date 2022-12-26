@@ -27,7 +27,13 @@
 
   .card-title {
     font-family: 'Secular One', sans-serif;
-    color: black;
+    color: #fff;
+  }
+
+  .card-title-two {
+    font-size: 19px;
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
   }
 
   .preview {
@@ -41,5 +47,16 @@
     color: #135725;
     font-family: 'Secular One', sans-serif;
     font-size: 18px;
+  }
+
+  .step-one, .step-two, .step-three {
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, #05371f, #073b1f, #0a401e, #0f441d, #14481b);
+  }
+
+  .card-content {
+    color: #bbbbbb;
+    text-align: justify;
+    margin-bottom: 8px;
   }
 }
