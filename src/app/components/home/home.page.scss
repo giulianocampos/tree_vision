@@ -2,21 +2,39 @@
 
   .main-card {
     margin: 0px;
-    height: 50%;
-    border-radius: 0 0 3rem 3rem;
+    height: 15% ;
+    border-radius: 0 0 2rem 2rem;
     background-image: linear-gradient(to bottom, #05371f, #073b1f, #0a401e, #0f441d, #14481b);
   }
 
+  .main-topics {
+    margin-bottom: -18px;
+    margin-left: 22px;
+    font-weight: bold;
+
+    p {
+      color: #9b9b9b;
+    }
+  }
+
+  .header {
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .settings-icon {
+    font-size: 20px;
+    color: #9b9b9b;
+  }
+
   .title {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 8%;
-    margin-bottom: -14px;
-    text-align: center;
     font-family: 'Secular One', sans-serif;
   }
 
   .subtitle {
-    text-align: center;
+    margin-top: -20px;
     font-size: 16px;
     font-family: 'Secular One', sans-serif;
   }
